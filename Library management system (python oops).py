@@ -5,10 +5,7 @@
 #              then print their name
 # 3)add book: This function is used to enter the name of the book to be added to the library
 # 4)return book : Allows the user to return a book
-#
-# The Constructor of the class should take 2 arguments:
-# 1) a list of all the book in the library
-# 2) the name of the library
+
 
 
 class Library:
