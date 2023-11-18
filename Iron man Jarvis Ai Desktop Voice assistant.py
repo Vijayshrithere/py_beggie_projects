@@ -1,4 +1,3 @@
-
 import pyttsx3 #pip install pyttsx3
 import speech_recognition as sr 
 import datetime
@@ -58,7 +57,6 @@ def sendEmail(to, content):
 if __name__ == "__main__":
     wishMe()
     while True:
-    # if 1:
         query = takeCommand().lower()
 
         if 'wikipedia' in query:
